@@ -1,0 +1,111 @@
+
+body{
+    margin: 11rem;
+    background-color: rgb(236, 231, 234);
+}
+#Title{
+    position: relative;
+    font-size: 400%;
+    left: 140px;
+    top: -100px;
+}
+#txt{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgba(236, 231, 234);
+}
+#Image-Vote{
+    width: 200px;
+    height: 200px;
+    border-radius:45%;
+    position: relative;
+    left: calc(40% - 50px);
+    top: -100px;
+}
+.Marko{
+    width: 320px;
+    height: 390px;
+    background: #fec8d8;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+#btn_verificate{
+    padding: 1em;
+    position: relative;
+    left: 150px;
+    background-color:rgb(236, 231, 234);
+    color: black ;
+    font-size: 1em;
+    border-radius:20%;
+}
+#btn_verificate:hover{
+    position: relative;
+    background-color:white;
+    transition: background-color 200ms;
+    left: 150px;
+}
+
+#text{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color:rgba(236, 231, 234);
+}
+#Container-AllProgram{
+    background: #fec8d8 ;
+    padding: 6rem;
+}
+#Input-InformationUser{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+    background-color: rgba(236, 231, 234);
+    border-color: 10px solid black;
+}
+
+#user{
+    width: 200px;
+    height: 30px;
+}
+
+#age{
+    display:none;
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(236, 231, 234);
+}
+#date{
+    margin: 20px;
+    width: 200px;
+    height: 30px; 
+}
+@media (max-width:2000px) {
+    body{
+        margin: 20rem;
+    }
+    #Title{
+        left: 43%;
+    }
+    #Image-Vote{
+        left: calc(45% - 50px);
+    }
+    #btn_verificate{
+        left: 46%;
+    }
+    #btn_verificate:hover{
+        left: 46%;
+    }
+}
+
+@media (min-width:200px) {
+    #Image-Vote{
+        left: -100px
+    }
+}

@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Indie+Flower&display=swap');
+
+body{
+    background-color:#0E4C75 ;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#BBE1F8 ;
+}
+
+header nav{
+    height:30%;
+    margin-top: 1rem;
+    margin-right: 10em;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 10rem;
+}
+
+nav p{
+    color:#00144b ;
+    font-style: italic;
+    font-weight: 600;
+    margin:0.2rem ;
+}
+
+nav .user{
+    width: 2rem;
+    height: 2rem;
+    background-color: #00144b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user a{
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header h1{
+    height: 50%;
+    font-size: 1rem;
+    font-family:'Indie Flower', cursive;
+}
+
+main {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 18rem;
+    height: 40rem;
+    background-color:#3282B5 ;
+    margin: 1rem;
+    box-shadow: 0 0 5px rgb(1, 1, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h2{
+    margin-top: 0.2rem;
+}
+.container fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset i {
+    color: #ffff;
+    margin-right: 0.1rem;
+}
+
+fieldset input {
+    font-size: 1rem;
+}
+
+textarea {
+    margin-top: 1rem;
+    width: 90%;
+    height: 40rem;
+    box-shadow: 0 0 5px #ffff;
+    font-family: 'Indie Flower', cursive;
+}
+
+#accountant{
+    text-align: end;
+    height: 20%;  
+    width: 100%;
+    margin-right: 1rem;
+    position: relative;
+    top: -5px;
+    font-size: 1.2rem;
+    color: #00144b;
+    font-weight: 600;
+}
+
+#button{
+    width: 16rem;
+    height: 8rem;
+    background-color:#BBE1F8 ;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+#button:hover {
+    background-color: #00144b;
+    color: aliceblue;
+    transition: 300ms;
+}
+
+#Initial{
+    color: #ffffff;
+}
+
+#TextArea_Printed {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    width: 90%;
+    height: 40rem;
+    box-shadow: 0 0 5px #ffff;
+    background-color: #ffffff;
+    font-family: 'Indie Flower', cursive;
+}
+  
+#TextArea_Printed p {
+    color: rgb(137, 217, 241);
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    width: 90%;
+    height: 40rem;
+    box-shadow: 0 0 5px #ffff;
+    font-family:'Indie Flower', cursive ;
+}
+  
+#TextArea_Printed p:hover {
+    font-weight: 600;
+    color: rgb(255, 255, 255);  
+}
+
+@media only screen and (min-width: 768px) {
+
+    header {
+        height: 20%;
+    }
+  
+    header nav {
+        position: relative;
+        left: 5%;
+        top: 1rem;
+    }
+  
+    header h1 {
+        font-size: 2rem;
+    }
+  
+    .container {
+        width: 80%;
+        height: 90%;
+        padding-top: 1rem;
+    }
+  
+    .container h2 {
+        margin: 0;
+    }
+  
+    textarea {
+        margin-top: 1rem;
+        width: 80%;
+    }
+    #TextArea_Printed p{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header nav {
+        position: relative;
+        left: 5%;
+    }
+  
+    .container {
+        width: 65%;
+        height: 100%;
+    }
+  
+    textarea {
+        width: 60%;
+        height: 25rem;
+    }
+    #TextArea_Printed p{
+        text-align: center;
+    }
+}
+/*@media only screen and (min-width: 2000px) {
+
+    header nav {
+        position: relative;
+        left: 50rem;
+    }
+  
+    nav {
+        width: 20em;
+        height: 40em;
+    }
+    
+    nav p {
+        font-size: 3rem;
+    }
+  
+    nav .user {
+        width: 6rem;
+        height: 6rem;    
+    }
+  
+    .user a {
+        font-size: 2.5rem;
+    }
+  
+    .container {
+        width: 65%;
+        height: 100%;
+    }
+  
+    .container fieldset {
+        width: 30rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+  
+    fieldset i {
+      font-size: 2rem;    
+    }
+  
+    fieldset input {
+        width: 80%;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+  
+    textarea {
+        width: 60%;
+        height: 25rem;
+        font-size: 2rem;
+        font-style: italic;
+    }
+  
+    #btn-login {
+        font-size: 2rem;
+    }
+  
+    .helpers a {
+        font-size: 1.5rem;
+    }
+} */
+  
