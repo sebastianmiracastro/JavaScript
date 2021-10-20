@@ -1,0 +1,1 @@
+const parrafo = document.createElement("p")

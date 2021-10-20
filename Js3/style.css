@@ -59,13 +59,13 @@
     margin-left: 42%;
   }
   
-  .title {
+  #title {
     color: var(--bg);
     font-size: 4rem;
     margin-bottom: 20px;
   }
   
-  .color-number {
+  #color-number {
     color: var(--bg);
     margin: 30px 0;
   }
