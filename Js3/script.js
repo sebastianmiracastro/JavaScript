@@ -14,6 +14,7 @@ const generateRandomColor = () => {
 
 const setBackgrount = () => {
   const newColor = generateRandomColor();
+  colorNumber.innerHTML = newColor;
   colorNumber.style.color= newColor;
   body.style.backgroundColor = newColor;
   button.style.background = newColor;
