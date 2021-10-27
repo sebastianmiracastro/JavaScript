@@ -53,11 +53,13 @@ function pintarCarrito(){
     })
     
     const container_colors = document.createElement('div');
-    container_colors.textContent = colors1[0].name;
-    container_colors.textContent = colors1[0].hex;
+    
 
     const nombre = document.createElement('p');
     const colors_text = document.createElement('p');
+
+    nombre.textContent = colors1[0].name;
+    colors_text.textContent = colors1[0].hex;
 
     container_colors.appendChild(nombre);
     container_colors.appendChild(colors_text)
