@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 body {
-  width: 100vw;
+  width: auto;
   height: auto;  
   align-items: center;
-  background-color: #100E18;
+  background-color: #2a1d5e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +19,29 @@ header {
 }
 
 #h1-title {
-  color: #d0c6f8;    
+  font-family: 'Festive', cursive;
+  font-size: 80px;
+  text-align: center;
+  width: 90%;
+  height: 120px;
+  color: #2a1d5e;   
+  background-color: rgb(233, 227, 227); 
+  box-shadow: 0 0 10px rgb(233, 227, 227);
+  border-radius: 50%;
+}
+#TxT_Description{
+  width: auto;
+  height:auto;
+  background-color:rgb(233, 227, 227);
+  box-shadow: 0 0 10px rgb(233, 227, 227);
+   border-radius: 20%;
+}
+
+#Descrip_h2{
+  font-size: 2rem;
+  font-family: 'Festive', cursive;
+  color: #2a1d5e;
+  text-align: center;
 }
 
 #main {
@@ -31,13 +54,14 @@ header {
 
 .card {
   width: 16rem;
-  height: 25rem;
-  border-radius: 10px;
-  background-color: #312b3b;
+  height: 28rem;
+  border-radius: 20px;
+  background-color: rgb(233, 227, 227); 
   display: flex;  
   flex-direction: column;
   align-items: center;
   margin: 0.5rem;
+  box-shadow: 0 0 100px rgb(233, 227, 227);
 }
 
 .header-card {
@@ -47,7 +71,7 @@ header {
 }
 
 #h2 {
-  color: #ffffff;
+  color: #2a1d5e;
   margin: 2rem;  
   width: 100%;
 }
@@ -62,8 +86,8 @@ header {
 .card-main {
   margin-top: 1rem;
   width: 100%;
-  height: 0.5em;
-  background: linear-gradient(90deg, violet, purple);
+  height: 20px;
+  background: linear-gradient(90deg, #2a1d5e, purple);
 }
 
 .card-image {
@@ -74,33 +98,48 @@ header {
   justify-content: center;
   margin-top: 1rem;
 }
+.card-image:hover{
+  transition: 400ms;
+  transform: scale(1.1);
+}
 
 .img {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
-  box-shadow: 0 0 20px #ff2b60;
+  border-radius: 20%;
+  box-shadow: 0 0 20px #2a1d5e;
 }
 
+.price_p{
+  font-size:20px;
+  color: rgb(233, 227, 227);
+  text-align: center;
+  margin-top: 1rem;
+  width: 257px;
+  height: 20px;
+  background: linear-gradient(90deg, #2a1d5e, purple);
+}
 #btn-card {
   margin-top: 2em;
   width: 30%;
   height: 2.5rem;
   border-radius: 25px;
-  background-color: blueviolet;
-  color: #c6aafd;
+  background: linear-gradient(90deg, #2a1d5e, purple);
+  color: rgb(233, 227, 227);
   cursor: pointer;
 }
 
 #btn-card:hover {
-  background-color: #c0a1fd;
-  color: #ff2b60;
+  transform:scale(1.1);
+  transition: 300ms;
+  background: #9084c4;
+  color: rgb(233, 227, 227);
 }
 
 footer {
   width: 100%;
   height: 10%;
-  background-color: #04000c;
+  background-color: rgb(233, 227, 227);
   margin-top: 0.5rem;
   display: flex;
   justify-content: space-around;
@@ -116,3 +155,6 @@ footer h2 {
   color: #ffff;
 }
 
+#LinkMyPage{
+  color: #2a1d5e;
+}
