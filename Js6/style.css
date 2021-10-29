@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 body {
   width: auto;
   height: auto;  
   align-items: center;
-  background-color: #2a1d5e;
+  /*background-color: #2a1d5e; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,8 +18,33 @@ header {
   justify-content: center;
 }
 
+#Options_Library{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+}
+#Options_Library a:not(:last-child){
+  margin-right: 550px;
+}
+a{
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  transition: color 300ms ease-in-out;
+}
+
+a:hover{
+  transform: scale(1.8);
+  transition: 300ms;
+}
+
 #h1-title {
-  font-family: 'Festive', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 80px;
   text-align: center;
   width: 90%;
@@ -39,7 +64,7 @@ header {
 
 #Descrip_h2{
   font-size: 2rem;
-  font-family: 'Festive', cursive;
+  font-family: 'Montserrat', sans-serif;
   color: #2a1d5e;
   text-align: center;
 }
@@ -63,7 +88,28 @@ header {
   margin: 0.5rem;
   box-shadow: 0 0 100px rgb(233, 227, 227);
 }
-
+.card2 {
+  width: 16rem;
+  height: 28rem;
+  border-radius: 20px;
+  background-color: rgb(233, 227, 227); 
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  box-shadow: 0 0 100px rgb(233, 227, 227);
+}
+.card3 {
+  width: 16rem;
+  height: 28rem;
+  border-radius: 20px;
+  background-color: rgb(233, 227, 227); 
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  box-shadow: 0 0 100px rgb(233, 227, 227);
+}
 .header-card {
   width: 100%;  
   display: flex;
@@ -74,12 +120,14 @@ header {
   color: #2a1d5e;
   margin: 2rem;  
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #p-header {
   text-align: center;
   font-size: 1.1rem;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -111,6 +159,7 @@ header {
 }
 
 .price_p{
+  font-family: 'Montserrat', sans-serif;
   font-size:20px;
   color: rgb(233, 227, 227);
   text-align: center;
@@ -120,6 +169,7 @@ header {
   background: linear-gradient(90deg, #2a1d5e, purple);
 }
 #btn-card {
+  font-family: 'Montserrat', sans-serif;
   margin-top: 2em;
   width: 30%;
   height: 2.5rem;
@@ -153,6 +203,7 @@ footer img {
 
 footer h2 {
   color: #ffff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #LinkMyPage{
