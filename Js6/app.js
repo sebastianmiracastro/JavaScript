@@ -12,7 +12,7 @@ const Shop = (name,src, price) => {
   
   card_render.classList.add('card');
   header_card.classList.add('header-card');
-  h2_title.setAttribute('id', 'h2');
+  h2_title.setAttribute('id', 'h2-card1');
   h2_title.textContent = name;
   card_main.classList.add('card-main');
   div_image.classList.add('card-image');
