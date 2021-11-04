@@ -82,22 +82,6 @@ a:hover{
   flex-wrap: wrap;
 }
 
-#main2 {
-  width: 100%;
-  height: 77%;
-  display: flex;
-  justify-content: center;  
-  flex-wrap: wrap;
-}
-
-#main3 {
-  width: 100%;
-  height: 77%;
-  display: flex;
-  justify-content: center;  
-  flex-wrap: wrap;
-}
-
 /* Cards */
 .card {
   width: 16rem;
@@ -110,28 +94,7 @@ a:hover{
   margin: 0.5rem;
   box-shadow: 0 0 100px rgb(233, 227, 227);
 }
-.card2 {
-  width: 16rem;
-  height: 28rem;
-  border-radius: 20px;
-  background-color: rgb(233, 227, 227); 
-  display: flex;  
-  flex-direction: column;
-  align-items: center;
-  margin: 0.5rem;
-  box-shadow: 0 0 100px #1d1c1c;
-}
-.card3 {
-  width: 16rem;
-  height: 28rem;
-  border-radius: 20px;
-  background-color: rgb(233, 227, 227); 
-  display: flex;  
-  flex-direction: column;
-  align-items: center;
-  margin: 0.5rem;
-  box-shadow: 0 0 100px rgb(233, 227, 227);
-}
+
 /*Headers  Card*/
 .header-card {
   width: 100%;  
@@ -139,17 +102,6 @@ a:hover{
   flex-direction: column;    
 }
 
-.header-card2 {
-  width: 100%;  
-  display: flex;
-  flex-direction: column;    
-}
-
-.header-card3 {
-  width: 100%;  
-  display: flex;
-  flex-direction: column;    
-}
 /* H2-Tittle */
 #h2-card1 {
   color: #2a1d5e;
@@ -157,23 +109,6 @@ a:hover{
   width: 100%;
   font-family: 'Montserrat', sans-serif;
 }
-
-#h2-card2 {
-  color: rgb(59, 28, 28);
-  margin: 2rem;  
-  width: 100%;
-  font-family: 'Montserrat', sans-serif;
-}
-
-
-#h2-card3 {
-  color: rgb(165, 22, 22);
-  margin: 2rem;  
-  width: 100%;
-  font-family: 'Montserrat', sans-serif;
-}
-
-
 
 #p-header {
   text-align: center;
@@ -188,20 +123,6 @@ a:hover{
   width: 100%;
   height: 20px;
   background: linear-gradient(90deg, #2a1d5e, purple);
-}
-
-.card-main2 {
-  margin-top: 1rem;
-  width: 100%;
-  height: 20px;
-  background: linear-gradient(90deg, #5e1d1d, rgb(3, 3, 3));
-}
-
-.card-main3 {
-  margin-top: 1rem;
-  width: 100%;
-  height: 20px;
-  background: linear-gradient(90deg, #9b5b5b, rgb(173, 2, 2));
 }
 
 /*Card Image*/
@@ -219,31 +140,6 @@ a:hover{
   transform: scale(1.1);
 }
 
-.card-image2 {
-  width: 10rem;
-  height: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1rem;
-}
-.card-image2:hover{
-  transition: 400ms;
-  transform: scale(1.1);
-}
-
-.card-image3 {
-  width: 10rem;
-  height: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1rem;
-}
-.card-image3:hover{
-  transition: 400ms;
-  transform: scale(1.1);
-}
 /* Img */
 .img {
   width: 100%;
@@ -252,19 +148,6 @@ a:hover{
   box-shadow: 0 0 20px #2a1d5e;
 }
 
-.img2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 20%;
-  box-shadow: 0 0 20px #421414;
-}
-
-.img3 {
-  width: 100%;
-  height: 100%;
-  border-radius: 20%;
-  box-shadow: 0 0 20px #2a1d5e;
-}
 /* Price Container */
 .price_p{
   font-family: 'Montserrat', sans-serif;
@@ -275,28 +158,6 @@ a:hover{
   width: 257px;
   height: 20px;
   background: linear-gradient(90deg, #2a1d5e, purple);
-}
-
-.price_p2{
-  font-family: 'Montserrat', sans-serif;
-  font-size:20px;
-  color: rgb(233, 227, 227);
-  text-align: center;
-  margin-top: 1rem;
-  width: 257px;
-  height: 20px;
-  background: linear-gradient(90deg, #5e1d1d, rgb(3, 3, 3));
-}
-
-.price_p3{
-  font-family: 'Montserrat', sans-serif;
-  font-size:20px;
-  color: rgb(233, 227, 227);
-  text-align: center;
-  margin-top: 1rem;
-  width: 257px;
-  height: 20px;
-  background: linear-gradient(90deg, #9b5b5b, rgb(173, 2, 2));
 }
 
 /* BTN-Card*/
@@ -318,41 +179,6 @@ a:hover{
   color: rgb(233, 227, 227);
 }
 
-#btn-card2 {
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 2em;
-  width: 30%;
-  height: 2.5rem;
-  border-radius: 25px;
-  background: linear-gradient(90deg, #5e1d1d, rgb(3, 3, 3));
-  color: rgb(233, 227, 227);
-  cursor: pointer;
-}
-
-#btn-card2:hover {
-  transform:scale(1.1);
-  transition: 300ms;
-  background: #4d2222;
-  color: rgb(233, 227, 227);
-}
-
-#btn-card3 {
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 2em;
-  width: 30%;
-  height: 2.5rem;
-  border-radius: 25px;
-  background: linear-gradient(90deg, #c23737, rgb(90, 84, 84));
-  color: rgb(233, 227, 227);
-  cursor: pointer;
-}
-
-#btn-card3:hover {
-  transform:scale(1.1);
-  transition: 300ms;
-  background: #962828;
-  color: rgb(233, 227, 227);
-}
 footer {
   width: 100%;
   height: 10%;
@@ -375,4 +201,31 @@ footer h2 {
 
 #LinkMyPage{
   color: #06050a;
+}
+
+/*   Shopping */
+
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
 }

@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="style.css">
   <title>Street styles - Main</title>
 </head>
@@ -18,7 +20,6 @@
     <h2 id="Descrip_h2">To move your soul<br> so that you touch the sky for the love<br> and nostalgia that you will have!
     </h2> 
   </div>
-  <section id="Amor">
     <h1>Seccion: Amor</h1>
     <main id="main">
       <div class="card">
@@ -33,44 +34,102 @@
         <button id="btn-card">Order. . .</button>  
       </div>      
     </main>
+     <!-- START SECTION SHOPPING CART -->
+     <section class="shopping-cart">
+      <div class="container">
+          <h1 class="text-center">CARRITO</h1>
+          <hr>
+          <div class="row">
+              <div class="col-6">
+                  <div class="shopping-cart-header">
+                      <h6>Producto</h6>
+                  </div>
+              </div>
+              <div class="col-2">
+                  <div class="shopping-cart-header">
+                      <h6 class="text-truncate">Precio</h6>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="shopping-cart-header">
+                      <h6>Cantidad</h6>
+                  </div>
+              </div>
+          </div>
+          <!-- ? START SHOPPING CART ITEMS -->
+          <div class="shopping-cart-items shoppingCartItemsContainer">
+          </div>
+          <!-- ? END SHOPPING CART ITEMS -->
+
+          <!-- START TOTAL -->
+          <div class="row">
+              <div class="col-12">
+                  <div class="shopping-cart-total d-flex align-items-center">
+                      <p class="mb-0">Total</p>
+                      <p class="ml-4 mb-0 shoppingCartTotal">0€</p>
+                      <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                          data-delay="2000">
+                          <div class="toast-header">
+                              <span>✅</span>
+                              <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                              <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                              </button>
+                          </div>
+                          <div class="toast-body text-white">
+                              Se aumentó correctamente la cantidad
+                          </div>
+                      </div>
+                      <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                          data-target="#comprarModal">Comprar</button>
+                  </div>
+              </div>
+          </div>
+
+          <!-- END TOTAL -->
+
+          <!-- START MODAL COMPRA -->
+          <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                          <p>Pronto recibirá su pedido</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- END MODAL COMPRA -->
+
+
+      </div>
+
   </section>
-  <section id="Terror">
-    <h1>Seccion: Terror</h1>
-    <main id="main2">
-      <div class="card2">
-        <div class="header-card2">
-          <h2 id="h2-card2">Amigo Imaginario</h2>              
-        </div>
-        <div class="card-main2"></div>
-        <div class="card-image2">
-          <img src="Images/De Terror/AmigoImaginario.jpg" alt="Card-Image2" class="img2">
-        </div>
-        <div id="card-main2"><p class="price_p2">$30.000</p></div>
-        <button id="btn-card2">Order. . .</button>  
-      </div>  
-    </main>    
-  </section>
-  <section id="Fantasia ">
-    <h1>Seccion: Fantasia</h1>
-    <main id="main3">
-      <div class="card3">
-        <div class="header-card3">
-          <h2 id="h2-card3">Alicia</h2>              
-        </div>
-        <div class="card-main3"></div>
-        <div class="card-image3">
-          <img src="Images/De Fantasia/Alicia.jpg" alt="Card-Image3" class="img3">
-        </div>
-        <div id="card-main2"><p class="price_p3">$10.000</p></div>
-        <button id="btn-card3">Order. . .</button>  
-      </div>      
-    </main>
-  </section>
+  <!-- END SECTION SHOPPING CART -->
   <footer>
     <h2><a id="LinkMyPage" href="https://competent-mirzakhani-463e67.netlify.app/">Sebastian Mira Castro</a></h2>
     <img src="Images/logoSena.png" alt="Logo Sena">
   </footer>  
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+  crossorigin="anonymous"></script> -->
   <script src="products.js"></script>
   <script src="app.js"></script>
+  <script src="app2.js"></script>
 </body>
 </html>
