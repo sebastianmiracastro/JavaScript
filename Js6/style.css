@@ -73,6 +73,13 @@ a:hover{
   text-align: center;
 }
 
+.Shopping-cart-ocult{
+  display: none;
+}
+.btn-marketcart:hover{
+  cursor: pointer;
+}
+
 /*Main Cards Container*/
 #main {
   width: 100%;
