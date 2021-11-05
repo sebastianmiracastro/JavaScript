@@ -33,7 +33,7 @@ header {
   z-index: 10;
 }
 #Options_Library a:not(:last-child){
-  margin-right: 550px;
+  margin-right: 450px;
 }
 a{
   font-size: 2rem;

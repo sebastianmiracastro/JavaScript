@@ -19,4 +19,4 @@ function filtrarPorCategory(category) {
 }
 
 // filtrarPorCategory('Terror');
-filtrarPorCategory('Comedia');
+// filtrarPorCategory('Comedia');
