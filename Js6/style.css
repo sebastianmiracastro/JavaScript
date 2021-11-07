@@ -2,12 +2,11 @@
 html{
   scroll-behavior: smooth;
 }
-
 body {
   width: auto;
   height: auto;  
   align-items: center;
-  background:linear-gradient(#2a1d5e9d,#0a0a0a,  #721621); 
+  background:linear-gradient(#2a1d5e9d, purple); 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,16 +34,16 @@ header {
 #Options_Library a:not(:last-child){
   margin-right: 450px;
 }
-a{
+#Options_Library a{
   font-size: 2rem;
   text-decoration: none;
   color: white;
   transition: color 300ms ease-in-out;
 }
 
-a:hover{
-  transform: scale(1.8);
-  transition: 300ms;
+#Options_Library a:hover{
+  transform: scale(1.2);
+  transition: 200ms;
 }
 
 #h1-title {
@@ -55,7 +54,7 @@ a:hover{
   height: 120px;
   color: #2a1d5e;   
   background-color: rgb(233, 227, 227); 
-  box-shadow: 0 0 10px rgb(233, 227, 227);
+  box-shadow: 0 0 50px #ceb8ed;
   border-radius: 50%;
 }
 #TxT_Description{
@@ -72,18 +71,10 @@ a:hover{
   color: #2a1d5e;
   text-align: center;
 }
-
-.Shopping-cart-ocult{
-  display: none;
-}
-.btn-marketcart:hover{
-  cursor: pointer;
-}
-
 /*Main Cards Container*/
-#main {
-  width: 100%;
-  height: 77%;
+#main{
+  width: auto;
+  height: auto;
   display: flex;
   justify-content: center;  
   flex-wrap: wrap;
@@ -92,7 +83,7 @@ a:hover{
 /* Cards */
 .card {
   width: 16rem;
-  height: 28rem;
+  height: 22rem;
   border-radius: 20px;
   background-color: rgb(233, 227, 227); 
   display: flex;  
@@ -110,11 +101,12 @@ a:hover{
 }
 
 /* H2-Tittle */
-#h2-card1 {
+#h2{
   color: #2a1d5e;
-  margin: 2rem;  
+  margin: 10px;  
   width: 100%;
   font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
 }
 
 #p-header {
@@ -156,7 +148,7 @@ a:hover{
 }
 
 /* Price Container */
-.price_p{
+#h5{
   font-family: 'Montserrat', sans-serif;
   font-size:20px;
   color: rgb(233, 227, 227);
@@ -168,18 +160,15 @@ a:hover{
 }
 
 /* BTN-Card*/
-#btn-card {
+button {
   font-family: 'Montserrat', sans-serif;
-  margin-top: 2em;
-  width: 30%;
-  height: 2.5rem;
   border-radius: 25px;
   background: linear-gradient(90deg, #2a1d5e, purple);
   color: rgb(233, 227, 227);
   cursor: pointer;
 }
 
-#btn-card:hover {
+button:hover {
   transform:scale(1.1);
   transition: 300ms;
   background: #9084c4;
@@ -207,13 +196,18 @@ footer h2 {
 }
 
 #LinkMyPage{
-  color: #06050a;
+  color: #2a1d5e;
+  text-decoration: none;
+}
+#LinkMyPage:hover{
+  transform: scale(1.1);
+  transition: 100ms;
 }
 
 /*   Shopping */
 
 .logo{ 
-  margin-left: 91%;
+  margin-left: 86%;
   position: fixed;
 }
 #show-modal2{
@@ -252,7 +246,6 @@ footer h2 {
 }
 .titulo{
   position: absolute;
-  
 }
 .container_products {
   max-width: 1000px;
