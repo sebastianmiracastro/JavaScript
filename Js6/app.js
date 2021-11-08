@@ -111,12 +111,12 @@ function SeeCart (){
     btn_eliminate.style.backgroundColor = 'rgb(243, 138, 165)';
 
     Container_Books.style.padding = '10px';
-    Container_Books.style.margin = '5px 0';
-    Container_Books.style.border = '1px solid #d42853';
-    Container_Books.style.boxShadow= '0 0 20px #d42853';
+    Container_Books.style.margin = '25px 0';
+    Container_Books.style.border = '1px solid white';
+    Container_Books.style.boxShadow= '0 0 20px white';
     Container_Books.style.display = 'flex';
     Container_Books.style.justifyContent = 'space-between';
-    Container_Books.style.alignItems = 'stretch';
+    Container_Books.style.alignItems = '';
     Container_Books.style.borderRadius = '10px';
     
     container_productos.appendChild(Container_Books);

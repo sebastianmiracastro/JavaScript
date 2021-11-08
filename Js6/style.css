@@ -207,7 +207,7 @@ footer h2 {
 /*   Shopping */
 
 .logo{ 
-  margin-left: 86%;
+  margin-left: 65%;
   position: fixed;
 }
 #show-modal2{
@@ -222,7 +222,7 @@ footer h2 {
   position: fixed;
 }
 .productos p{
-  font-size: 170%;
+  font-size: 140%;
   color: #000;
 }
 .productos .article2{
@@ -236,7 +236,7 @@ footer h2 {
   text-decoration: none;
   color:white;
   position: absolute;
-  right: 50px;
+  right: 15px;
   top: 30px;
 }
 .close-cart:hover{
@@ -249,16 +249,9 @@ footer h2 {
 .productos:target .content-cats{
   top: 5px;
 }
-.titulo{
-  position: absolute;
-  top: 20px;
-}
-.titulo p{
-  color: white;
-}
 .container_products {
-  max-width: 1000px;
+  max-width: 500px;
   margin: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
