@@ -63,6 +63,7 @@ function SeeCart (){
     }
     const Container_Books = document.createElement('div')
 
+    const img = document.createElement('img')
     const nombre = document.createElement('p');
     const precio = document.createElement('p');
     const contador = document.createElement('p');
