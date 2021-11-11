@@ -2,6 +2,7 @@
 html{
   scroll-behavior: smooth;
 }
+/*
 body {
   width: auto;
   height: auto;  
@@ -12,19 +13,19 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
-}
+}*/
 
 /*Main Cards Container*/
-#container{
+/*#container{
   width: auto;
   height: auto;
   display: flex;
   justify-content: center;  
   flex-wrap: wrap;
-}
+}*/
 
 /* Cards */
-.ChangeCard {
+/*.ChangeCard {
   width: 16rem;
   height: 22rem;
   border-radius: 20px;
@@ -34,89 +35,89 @@ body {
   align-items: center;
   margin: 0.5rem;
   box-shadow: 0 0 100px rgb(233, 227, 227);
-}
+}*/
 
 /*Headers  Card*/
-.header-card {
+/*.header-card {
   width: 100%;  
   display: flex;
   flex-direction: column;    
-}
+}/*
 
 /* H2-Tittle */
-#h2{
+/*#h2{
   color: #2a1d5e;
   margin: 10px;  
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-}
+}*/
 
-#p-header {
+/*#p-header {
   text-align: center;
   font-size: 1.1rem;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
-}
+}*/
 
 /*Main Cards*/
-.card-main {
+/*.card-main {
   margin-top: 1rem;
   width: 100%;
   height: 20px;
   background: linear-gradient(90deg, #2a1d5e, purple);
-}
+}*/
 
 /*Card Image*/
 
-.ImageCharacter {
+/*.ImageCharacter {
   width: 10rem;
   height: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 1rem;
-}
-.ImageCharacter:hover{
+}*/
+/*.ImageCharacter:hover{
   transition: 400ms;
   transform: scale(1.1);
-}
+}*/
 
 /* Img */
-.Img {
+/*.Img {
   width: 100%;
   height: 100%;
   border-radius: 20%;
   box-shadow: 0 0 20px #2a1d5e;
-}
+}*/
 
 /* Price Container */
-#h5{
+/*#h5{
   font-family: 'Montserrat', sans-serif;
   font-size:20px;
   color: rgb(233, 227, 227);
   text-align: center;
   margin-top: 1rem;
   width: 257px;
-  height: 20px;
+  height: 200px;
   background: linear-gradient(90deg, #2a1d5e, purple);
-}
+}*/
 
 /* BTN-Card*/
-#Change {
+/*#Change {
   font-family: 'Montserrat', sans-serif;
   border-radius: 25px;
   background: linear-gradient(90deg, #2a1d5e, purple);
   color: rgb(233, 227, 227);
   cursor: pointer;
-}
+}*/
 
-#Change:hover {
+/*#Change:hover {
   transform:scale(1.1);
   transition: 300ms;
   background: #9084c4;
   color: rgb(233, 227, 227);
-}
+}*/
 
 footer {
   width: 100%;
