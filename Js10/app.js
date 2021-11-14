@@ -1,36 +1,40 @@
 const URLAll = 'https://rickandmortyapi.com/api/character/'
+const SelectContainer = document.getElementById('SelectContainer')
+const SeeCharacter = document.getElementById('AllCharacters')
+const character = document.getElementById('Character')
 
-const Name = document.getElementById('Name')
-const Img = document.getElementById('Img')
-const SelectionCharacter = document.getElementById('SelectionCharacter')
-const Options = document.getElementById('Options') 
-const SexType = document.getElementById('SexType')
-const container = document.getElementById('container')
+function Character() {
+    fetch(URLAll).then(response => response.json()).then(data => {
 
-function Fetch_characte() {
-    fetch(URLAll)
-    .then(response => response.json())
-    .then(data => console.log(data.results[0].name, data.results[0].gender, data.results[0].image))
+        data.results.map((Element) => {
+            const Name = document.createElement('option');
+            Name.value = Element.name;
+            Name.textContent = Element.name;
+
+            SelectContainer.appendChild(Name)
+        })
+    })
+    .catch(error => console.log(error));
 }
-const data = []
- 
-Fetch_characte();
 
+Character();
 
-function Create_Card(data) {
-    const cards1 = document.createElement('div');
-    const CardsOption = document.createElement('select')
-    const name_card = document.createElement('option');
-    const image_card = document.createElement('img');
-    const gender_card = document.createElement('p');
+SelectContainer.addEventListener('click', OptionCharacters)
 
-    name_card.textContent = data.results[0].name;
-    gender_card.textContent = data.results[0].gender;
-    image_card.setAttribute('src', data.results[0].image);
-
-    cards1.appendChild(CardsOption)
-    cards1.appendChild(name_card)
-    cards1.appendChild(gender_card)
-    cards1.appendChild(image_card)
-    container.appendChild(cards1)
+function OptionCharacters() {
+    const ContainerSelect1 = SelectContainer.value;
+    fetch(URLAll).then((response) => response.json()).then((data) => {
+        if (ContainerSelect1 === SeeCharacter.value) {
+            character.innerHTML= '';
+            data.results.map(element => {CreateCart(element)})
+        }
+        else {
+            data.results.map(element => {
+                if(element.name === ContainerSelect1){
+                    character.innerHTML = ''; CreateCart(element)
+                }
+            })
+        }
+    })
 }
+
