@@ -20,3 +20,22 @@ footer {
     color: #2a1d5e;
     text-decoration: none;
   }
+
+.ContentCard{
+  color: #ffff;
+  width: 17rem;
+  height: 26rem;
+  border-radius: 10px;
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  box-shadow: 0 0 20px #ece1e1;
+}
+
+.ImageCard {
+  width: 90%;
+  height: 50%;
+  box-shadow: 0 0 10px #b2b2b2;
+  margin-top: 2rem;
+}
