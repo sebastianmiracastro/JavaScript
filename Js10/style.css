@@ -2,29 +2,30 @@ html{
     scroll-behavior: smooth;
 }
 body{
+  background:#000;;
+}
+#AllProgram{
   background: url(images/RickAndMortyBanner.jpg) no-repeat;
-  background-position: center;
-  background-size: 100%;
+  background-position:center;
 }
 footer {
-    width: 100%;
-    height: 10%;
-    background-color: rgb(233, 227, 227);
-    margin-top: 0.5rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+  width: 100%;
+  height: 10%;
+  background-color: rgb(233, 227, 227);
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
   
-  footer h2 {
-    color: #ffff;
-    font-family: 'Montserrat', sans-serif;
-  }
+footer h2 {
+  font-family: 'Montserrat', sans-serif;
+}
   
-  #LinkMyPage{
-    color: #2a1d5e;
-    text-decoration: none;
-  }
+#LinkMyPage{
+  color: #2a1d5e;
+  text-decoration: none;
+}
 
 .Container_Name_Characters{
   display: flex;
